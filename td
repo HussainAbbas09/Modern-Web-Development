@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <Table border="">
+        <thead>
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">Hours</td>
+                <td><b>Mon</b></td>
+                <td><b>Tue</b></td>
+                <td><b>Wed</b></td>
+                <td><b>Thur</b></td>
+                <td><b>Fri</b></td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td> 
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td> 
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center;"><b>Lunch</b></td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td> 
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Projects</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td> 
+                <td>Science</td>
+                <td>Maths</td>
+            </tr>
+        </tbody>
+    </Table>
+    <hr>
+    <table border="1">
+        <tbody>
+            <td>H</td>
+            <td colspan="16" style="border: 0;"></td>
+            <td>He</td>
+        </tbody>
+        <tbody>
+            <td>Li</td>
+            <td>Be</td>
+            <td colspan="10" style="border: 0;"></td>
+            <td>B</td>
+            <td>C</td>
+            <td>N</td>
+            <td>O</td>
+            <td>F</td>
+            <td>Ne</td>
+        </tbody>
+        <tbody>
+            <td>Na</td>
+            <td>Mg</td>
+            <td colspan="10" style="border: 0;"></td>
+            <td>Al</td>
+            <td>Si</td>
+            <td>P</td>
+            <td>S</td>
+            <td>Cl</td>
+            <td>Ar</td>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>K</td>
+                <td>Ca</td>
+                <td>Sc</td>
+                <td>Ti</td>
+                <td>V</td>
+                <td>Cr</td>
+                <td>Mn</td>
+                <td>Fe</td>
+                <td>Co</td>
+                <td>Ni</td>
+                <td>Cu</td>
+                <td>Zn</td>
+                <td>Ga</td>
+                <td>Ge</td>
+                <td>As</td>
+                <td>Se</td>
+                <td>Br</td>
+                <td>Kr</td>
+            </tr>
+            <tr>
+                <td>Rb</td>
+                <td>Sr</td>
+                <td>Y</td>
+                <td>Zr</td>
+                <td>Nb</td>
+                <td>Mo</td>
+                <td>Tc</td>
+                <td>Ru</td>
+                <td>Rh</td>
+                <td>Pd</td>
+                <td>Ag</td>
+                <td>Cd</td>
+                <td>In</td>
+                <td>Sn</td>
+                <td>Sb</td>
+                <td>Te</td>
+                <td>I</td>
+                <td>Xe</td>
+            </tr>
+            <tr>
+                <td>Cs</td>
+                <td>Ba</td>
+                <td></td>
+                <td>Hf</td>
+                <td>Ta</td>
+                <td>W</td>
+                <td>Re</td>
+                <td>Os</td>
+                <td>Ir</td>
+                <td>Pt</td>
+                <td>Au</td>
+                <td>Hg</td>
+                <td>TI</td>
+                <td>Pb</td>
+                <td>Bi</td>
+                <td>Po</td>
+                <td>At</td>
+                <td>Rn</td>
+            </tr>
+            <tr>
+                <td>Fr</td>
+                <td>Ra</td>
+                <td></td>
+                <td>Rf</td>
+                <td>Db</td>
+                <td>Sg</td>
+                <td>Bh</td>
+                <td>Hs</td>
+                <td>Mt</td>
+                <td>Ds</td>
+                <td>Rg</td>
+                <td>Cn</td>
+                <td>Nh</td>
+                <td>FI</td>
+                <td>Mc</td>
+                <td>Lv</td>
+                <td>Ts</td>
+                <td>Og</td>
+            </tr>
+            <tr>
+                <td colspan="18" style="border: 0;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border: 0;"></td>
+                <td>La</td>
+                <td>Ce</td>
+                <td>Pr</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
