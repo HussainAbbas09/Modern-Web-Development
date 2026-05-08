@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+</head>
+<body>
+    <h2>Audio Player</h2>
+    <audio controls preload="metadata" loop>
+        <source src="horse.mp3" type="horse/mp3">
+        <source src="horse.ogg" type="horse/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video Player</h2>
+    <video controls width="500" poster="thumbnail.jpg" preload="none">
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.webm" type="mov_bbb/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>YouTube Video</h2>
+    <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Hl0IpoS503A?si=Oa2FRAv4ivSwK2oN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- 
+    1. What is the purpose of preload?
+    The preload attribute tells the browser whether the audio or video 
+    should load before the user plays it.
+    -->
+
+    <!-- 
+    2. Difference between preload="none" and preload="auto"?
+    preload="none" means the media will not load until the user clicks play.
+    preload="auto" means the browser loads the media automatically before play.
+    -->
+
+</body>
+</html>
